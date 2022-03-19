@@ -1,0 +1,8 @@
+.div {
+  background-color: #2257c2;
+  padding: 2px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}

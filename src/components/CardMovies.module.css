@@ -1,0 +1,98 @@
+.card {
+  width: 250px;
+  height: 600px;
+  margin: 4px;
+  background-color: #1f1b1c;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.year {
+  font-size: 12px;
+  align-self: flex-end;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  align-self: center;
+  width: 90%;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #343434;
+  width: calc(100% - 20px);
+  color: white;
+  font-size: 0.8em;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  display: block;
+  cursor: pointer;
+}
+
+.details {
+  color: #5799ef;
+  font-size: 1em;
+  text-decoration: none;
+  cursor: initial;
+}
+
+.flag {
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  width: 0;
+  height: 80;
+  border-bottom: 35px solid transparent;
+  opacity: 100%;
+  border-left: 20px solid rgb(52, 52, 52, 0.5);
+  border-right: 20px solid rgb(52, 52, 52, 0.5);
+}
+
+.favorites {
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  width: 0;
+  height: 80;
+  border-bottom: 35px solid transparent;
+  opacity: 100%;
+  border-left: 20px solid red;
+  border-right: 20px solid red;
+}
+
+.head {
+  display: inline-flex;
+  align-content: center;
+  padding: 0px 10px 0px 10px;
+  justify-content: space-between;
+  margin: initial;
+  width: 100%;
+}
+
+.like{
+  border: none;
+  height: auto;
+  margin: auto;
+  margin-right: 0;
+  padding-top: -10px;
+  background-color: transparent;
+}

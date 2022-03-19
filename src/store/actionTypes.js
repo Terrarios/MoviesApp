@@ -1,0 +1,10 @@
+export const SET_MOVIES_LIST = "setMoviesList";
+export const SET_SORT_MOVIES = "setSortedBy";
+export const SET_FILTERED_MOVIES = "searchInput";
+export const MOVIE_DETAILS = "moviesDetails";
+export const IS_LOGGED_IN = "isLoggedIn";
+export const MOVIE_TRAILER = "moviesTrailer";
+export const LOGIN = "login";
+export const LOGOUT = "logout";
+export const SET_MOVIES_FAVORITES = "setMoviesFavorites";
+export const SET_LIKE = 'setLike';
